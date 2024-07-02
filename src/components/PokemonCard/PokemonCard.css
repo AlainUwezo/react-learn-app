@@ -1,0 +1,21 @@
+.pokemon-card {
+  display: flex;
+  gap: 12px;
+  background-color: #cacaca;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pokemon-card__img {
+  height: 80px;
+  width: 80px;
+  background-color: black;
+  border-radius: 100%;
+}
+
+.pokemon-card__description {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
